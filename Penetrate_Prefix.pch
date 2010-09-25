@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'Penetrate' target in the 'Penetrate' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#import "PenetrateAppDelegate.h"
+#define APP_DELEGATE ((PenetrateAppDelegate*)[[UIApplication sharedApplication] delegate])

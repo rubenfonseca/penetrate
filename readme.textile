@@ -1,0 +1,18 @@
+h1. Penetrate for iOS
+
+This app was rejected (for obvious reasons) on the Apple's App Store, so I'm opening the (simple) sources here.
+
+
+Penetrate for iOS maps network names into the default keys of known routers:
+* SpeedTouch, Thomson, Orange, DMax, BBox, Infinitum, Otenet, Cyta
+* DLink
+* Pirelli Discus
+
+h2. How to build
+
+After you checkout the sources, please run the included script ./download_database.sh that will download the default password database. I cannot include this on github's account due to size issues.
+
+After that, you can open the project on XCode and build it yourself.
+
+Have fun
+
